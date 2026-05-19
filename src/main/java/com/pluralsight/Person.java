@@ -25,11 +25,18 @@ public class Person implements Comparable<Person>{
 
     @Override
     public int compareTo(Person otherPerson){
+
+            int lastNameCompare = this.lastName.compareTo(otherPerson.lastName);
+
+            if(lastNameCompare != 0) {
+                return lastNameCompare;
+            }
+
         return this.firstName.compareTo(otherPerson.firstName);
     }
 
     @Override
     public String toString(){
-        return firstName + " " + lastName + "Age: " + age;
+        return firstName + " " + lastName + "Age: " + age + "\n";
     }
 }

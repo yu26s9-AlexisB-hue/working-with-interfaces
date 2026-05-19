@@ -15,5 +15,7 @@ public class Main {
         myFamily.add( new Person("Ezra", "Aiden", 17) );
 
         Collections.sort(myFamily);
+
+        System.out.println(myFamily);
     }
 }
