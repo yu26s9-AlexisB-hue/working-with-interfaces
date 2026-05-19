@@ -13,6 +13,7 @@ public class Main {
         myFamily.add( new Person("Ian", "Auston", 16) );
         myFamily.add( new Person("Zephaniah", "Hughes", 9) );
         myFamily.add( new Person("Ezra", "Aiden", 17) );
+        myFamily.add(new Person("Justin", "Aiden", 13));
 
         Collections.sort(myFamily);
 

@@ -37,6 +37,6 @@ public class Person implements Comparable<Person>{
 
     @Override
     public String toString(){
-        return firstName + " " + lastName + "Age: " + age + "\n";
+        return "\n" + firstName + " " + lastName + " Age: " + age + "\n";
     }
 }
